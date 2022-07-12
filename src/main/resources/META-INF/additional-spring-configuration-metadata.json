@@ -1,0 +1,82 @@
+{"properties": [
+  {
+    "name": "k2dev.app.jwtSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'k2dev.app.jwtSecret'"
+  },
+  {
+    "name": "k2dev.app.jwtExpirationMs",
+    "type": "java.lang.String",
+    "description": "A description for 'k2dev.app.jwtExpirationMs'"
+  },
+  {
+    "name": "k2dev.app.jwtSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'k2dev.app.jwtSecret'"
+  },
+  {
+    "name": "k2dev.app.jwtSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'k2dev.app.jwtSecret'"
+  },
+  {
+    "name": "k2dev.app.client.address",
+    "type": "java.lang.String",
+    "description": "A description for 'k2dev.app.client.address'"
+  },
+  {
+    "name": "k2dev.app.jwtSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'k2dev.app.jwtSecret'"
+  },
+  {
+    "name": "k2dev.app.jwtSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'k2dev.app.jwtSecret'"
+  },
+  {
+    "name": "k2dev.app.jwtExpirationMs",
+    "type": "java.lang.String",
+    "description": "A description for 'k2dev.app.jwtExpirationMs'"
+  },
+  {
+    "name": "k2dev.app.jwtExpirationMs",
+    "type": "java.lang.String",
+    "description": "A description for 'k2dev.app.jwtExpirationMs'"
+  },
+  {
+    "name": "com.k2dev.hospital.client.address",
+    "type": "java.lang.String",
+    "description": "A description for 'com.k2dev.hospital.client.address'"
+  },
+  {
+    "name": "SPRING_DATASOURCE_USERNAME",
+    "type": "java.lang.String",
+    "description": "A description for 'SPRING_DATASOURCE_USERNAME'"
+  },
+  {
+    "name": "SPRING_DATASOURCE_PASSWORD",
+    "type": "java.lang.String",
+    "description": "A description for 'SPRING_DATASOURCE_PASSWORD'"
+  },
+  {
+    "name": "CLIENT_ADDRESS",
+    "type": "java.lang.String",
+    "description": "A description for 'CLIENT_ADDRESS'"
+  },
+  {
+    "name": "SPRING_MAIL_USERNAME",
+    "type": "java.lang.String",
+    "description": "A description for 'SPRING_MAIL_USERNAME'"
+  },
+  {
+    "name": "SPRING_MAIL_PASSWORD",
+    "type": "java.lang.String",
+    "description": "A description for 'SPRING_MAIL_PASSWORD'"
+  },
+  {
+    "name": "JWT_PASSWORD",
+    "type": "java.lang.String",
+    "description": "A description for 'JWT_PASSWORD'"
+  }
+]}
