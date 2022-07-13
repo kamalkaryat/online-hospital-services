@@ -1,6 +1,28 @@
 # online-hospital-services
 Provides online hospital related services to its end users e.g. searching doctors, hospitals, blood, injection. Request for home tests. Scheduling appointments
 
+## Azure Screenshots
+![](Screenshots/subscription.PNG)
+
+### Resource Group
+![](Screenshots/resource_group.PNG)
+
+### MySQL database
+![](Screenshots/database_overview.PNG)
+
+### App Service(Compute)
+![](Screenshots/app_service_overview.PNG)
+![](Screenshots/app_service_config.PNG)
+
+### Website Home Page
+![](Screenshots/home_page.PNG)
+
+### Backend APIs
+- Hospitals: (https://online-hospital-services.azurewebsites.net/v1/public/hospitals?filters=none)
+- Doctors: (https://online-hospital-services.azurewebsites.net/v1/public/doctors?filters=none)
+- Labs: (https://online-hospital-services.azurewebsites.net/v1/public/labs?filters=none)
+- Products: (https://online-hospital-services.azurewebsites.net/v1/public/products?filters=none)
+
 ## Admin Dashboard
 ![](Screenshots/admin_dashboard.PNG)
 
