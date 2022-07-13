@@ -10,6 +10,16 @@ Provides online hospital related services to its end users e.g. searching doctor
 ## Patient Dashboard
 ![](Screenshots/patient_home.PNG)
 
+## Username & Passwords
+- Admin
+  - username: admin@hs.com
+  - password: 12345@Aa
+- Hospital-Admin
+  - username: ha111@gmail.com
+  - password: 12345@Aa
+- Patient
+  - username: p123@gmail.com
+  - password: 12345@Aa
   ## Developed Using
   - Angular
   - SpringBoot
