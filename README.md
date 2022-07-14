@@ -1,16 +1,34 @@
 # online-hospital-services
 Provides online hospital related services to its end users e.g. searching doctors, hospitals, blood, injection. Request for home tests. Scheduling appointments
 
+## Demo
+https://user-images.githubusercontent.com/77448427/179035743-b7d83527-ea76-45df-9ac8-566af2767f79.mp4
+
+
 ## Azure Screenshots
 ![](Screenshots/subscription.PNG)
 
 ### Resource Group
 ![](Screenshots/resource_group.PNG)
 
-### MySQL database
+### Azure Database for MySQL(Database)
+- Server Name: k2dev-db-server.mysql.database.azure.com
+- This Azure service is used in hosting & storing our mysql database i.e. ksk(database name)
 ![](Screenshots/database_overview.PNG)
 
-### App Service(Compute)
+### WebApp(Compute)
+- App Service Name: online-hospital-services
+- This Azure service is used for hosting SpringBoot backend application on Azure
+- Client will access it via REST API calls.
+- The SpringBoot application is deployed as a single jar which contains the embeded tomcat server
+- WebApp specification:
+  - Runtime Stack: Java 8
+  - Java Web Server Stack: Java SE(Embedded Web Server)
+  - Operating System: Windows
+  - Region: Central India
+  - Publish: Code
+- Github Action is used for CI/CD pipeline
+
 ![](Screenshots/app_service_overview.PNG)
 ![](Screenshots/app_service_config.PNG)
 
@@ -18,10 +36,11 @@ Provides online hospital related services to its end users e.g. searching doctor
 ![](Screenshots/home_page.PNG)
 
 ### Backend APIs
-- Hospitals: (https://online-hospital-services.azurewebsites.net/v1/public/hospitals?filters=none)
-- Doctors: (https://online-hospital-services.azurewebsites.net/v1/public/doctors?filters=none)
-- Labs: (https://online-hospital-services.azurewebsites.net/v1/public/labs?filters=none)
-- Products: (https://online-hospital-services.azurewebsites.net/v1/public/products?filters=none)
+- Some unprotected apis are: 
+  - Hospitals: (https://online-hospital-services.azurewebsites.net/v1/public/hospitals?filters=none)
+  - Doctors: (https://online-hospital-services.azurewebsites.net/v1/public/doctors?filters=none)
+  - Labs: (https://online-hospital-services.azurewebsites.net/v1/public/labs?filters=none)
+  - Products: (https://online-hospital-services.azurewebsites.net/v1/public/products?filters=none)
 
 ## Admin Dashboard
 ![](Screenshots/admin_dashboard.PNG)
