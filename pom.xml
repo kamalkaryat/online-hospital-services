@@ -123,6 +123,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>online_hospital-services</finalName>
 	</build>
 
 </project>
